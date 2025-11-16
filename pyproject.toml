@@ -1,0 +1,29 @@
+[project]
+name = "app-launcher"
+version = "1.0.0"
+description = "A beautiful PyQt6 application launcher with compact mode, card mode, fuzzy search, favorites, and system tray integration."
+authors = [
+    { name = "Jeyaram" }
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = { text = "MIT" }
+
+dependencies = [
+    "PyQt6>=6.6",
+    "PyQt6-Qt6>=6.6",
+    "PyQt6-sip>=13.6",
+    "pyinstaller>=6.3"
+
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.gui-scripts]
+app-launcher = "main:main"
+
+[tool.setuptools]
+packages = { find = { where = ["."] } }
+include-package-data = true
