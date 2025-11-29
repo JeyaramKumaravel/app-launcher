@@ -1,0 +1,25 @@
+{
+  "apps": [
+    {
+      "id": 1,
+      "name": "Movie Box",
+      "path": "C:\\Users\\Jeyaram\\Shortcuts\\MovieBox.lnk",
+      "category": "Entertainment",
+      "icon_path": "",
+      "favorite": true
+    },
+    {
+      "id": 2,
+      "name": "n8n Server",
+      "path": "C:/Users/Jeyaram/Desktop/Exception/Project/n8n/Server/launcher.vbs",
+      "category": "Production",
+      "icon_path": "C:/Users/Jeyaram/Desktop/Exception/Project/app-launcher/icons/n8n-color.png",
+      "favorite": true
+    }
+  ],
+  "first_run": false,
+  "settings": {
+    "minimize_to_tray": true,
+    "start_minimized": false
+  }
+}
